@@ -18,9 +18,9 @@ class Employee extends Person {
         salary = wage;
     }
 
-    //this method prints Employee employer name
-    public void getEmployer(){
-        System.out.println("The employee's employer is " + this.employer);
+    //this method gets Employee employer name
+    public String getEmployer(){
+        return this.employer;
     }
 
     //this method sets Employee employer
@@ -29,9 +29,9 @@ class Employee extends Person {
         this.employer = input.nextLine();
     }
 
-    //this method prints Employee job title
-    public void getTitle(){
-        System.out.println("The employee's job title is " + this.jobTitle);
+    //this method gets Employee job title
+    public String getTitle(){
+        return this.jobTitle;
     }
 
     //this method sets Employee job title
@@ -40,9 +40,9 @@ class Employee extends Person {
         this.jobTitle = input.nextLine();
     }
 
-    //this method prints Employee salary
-    public void getWage(){
-        System.out.println("The employee's salary is $" + this.salary);
+    //this method gets Employee salary
+    public double getWage(){
+        return this.salary;
     }
 
     //this method sets Employee salary

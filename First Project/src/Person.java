@@ -17,9 +17,9 @@ public class Person {
         age = years;
     }
 
-    //this method prints Person first name
-    public void getFirst(){
-        System.out.println("The person's first name is " + this.fname);
+    //this method gets Person first name
+    public String getFirst(){
+        return this.fname;
     }
 
     //this method sets Person first name
@@ -28,9 +28,9 @@ public class Person {
         this.fname = input.nextLine();
     }
 
-    //this method prints Person last name
-    public void getLast(){
-        System.out.println("The person's last name is " + this.lname);
+    //this method gets Person last name
+    public String getLast(){
+        return this.lname;
     }
 
     //this method sets Person last name
@@ -39,9 +39,9 @@ public class Person {
         this.lname = input.nextLine();
     }
 
-    //this method prints Person age
-    public void getAge(){
-        System.out.println("The person's age is: " + this.age);
+    //this method gets Person age
+    public Integer getAge(){
+        return this.age;
     }
 
     //this method sets Person age

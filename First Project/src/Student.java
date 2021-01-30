@@ -18,9 +18,9 @@ class Student extends Person {
         gpa = grade;
     }
 
-    //this method prints Student college
-    public void getColl(){
-        System.out.println("The student's college is " + this.college);
+    //this method gets Student college
+    public String getColl(){
+        return this.college;
     }
 
     //this method sets Student college
@@ -29,9 +29,9 @@ class Student extends Person {
         this.college = input.nextLine();
     }
 
-    //this method prints Student's major
-    public void getMaj(){
-        System.out.println("The student's major is " + this.major);
+    //this method gets Student's major
+    public String getMaj(){
+        return this.major;
     }
 
     //this method sets Student's major
@@ -40,9 +40,9 @@ class Student extends Person {
         this.major = input.nextLine();
     }
 
-    //this method prints Student's GPA
-    public void getGpa(){
-        System.out.println("The student's GPA is " + this.gpa);
+    //this method gets Student's GPA
+    public double getGpa(){
+        return this.gpa;
     }
 
     //this method sets Student's GPA
